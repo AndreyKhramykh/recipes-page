@@ -1,0 +1,26 @@
+@font-face {
+  font-family: PoppinsRegular;
+  src: url(../styles/fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: PoppinsBold;
+  src: url(../styles/fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: PoppinsThin;
+  src: url(../styles/fonts/Poppins/Poppins-Thin.ttf);
+}
+
+:root {
+  --mainTxtColor: #000000;
+  --secondaryTxtColor: #121212;
+  --buttonBG: #ff553c;
+  --cardBG: rgba(255, 86, 60, 0.07);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: PoppinsRegular;
+}
